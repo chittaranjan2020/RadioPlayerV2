@@ -1,6 +1,6 @@
 """
 RadioPlayerV2, Telegram Voice Chat Userbot
-Copyright (C) 2021  Asm Safone
+Copyright (C) 2021  Chittaranjan Maharana
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU Affero General Public License as published by
@@ -22,9 +22,9 @@ from pyrogram import Client, filters
 
 
 
-HOME_TEXT = "👋🏻 **Hi [{}](tg://user?id={})**,\n\nI'm **Radio Player Bot** \nI Can Play Radio/Stream Music In Channels & Groups 24x7 Nonstop. Made with ❤️ By @AsmSafone!"
+HOME_TEXT = "👋🏻 **Hi [{}](tg://user?id={})**,\n\nI'm **Radio Player Bot** \nI Can Play Radio/Stream Music In Channels & Groups 24x7 Nonstop. Made with ❤️ By Love!"
 HELP = """🏷️ **Need Help?** 🤔
-__(Join @SafoTheBot For Support)__
+__(Join @allbotdeveloper For Support)__
 
 🏷️ **Common Commands**:
 \u2022 `/play` reply to an audio to play or queue it
@@ -57,12 +57,12 @@ __(Join @SafoTheBot For Support)__
 async def start(client, message):
     buttons = [
         [
-        InlineKeyboardButton('CHANNEL', url='https://t.me/AsmSafone'),
-        InlineKeyboardButton('SUPPORT', url='https://t.me/SafoTheBot'),
+        InlineKeyboardButton('CHANNEL', url='https://t.me/allbotdeveloper'),
+        InlineKeyboardButton('SUPPORT', url='https://t.me/allbotdeveloper'),
     ],
     [
-        InlineKeyboardButton('MORE BOTS', url='https://t.me/AsmSafone/12'),
-        InlineKeyboardButton('SOURCE CODE', url='https://github.com/AsmSafone/RadioPlayerV2'),
+        InlineKeyboardButton('MORE BOTS', url='https://t.me/allbotdeveloper'),
+        InlineKeyboardButton('Movies channel', url='https://t.me/Netflix_Hindi_HD'),
     ],
     [
         InlineKeyboardButton('⚙️ HELP ⚙️', callback_data='help'),
