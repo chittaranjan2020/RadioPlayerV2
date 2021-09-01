@@ -49,7 +49,7 @@ __(Join @allbotdeveloper For Support)__
 \u2022 `/unmute` unmute the VC userbot
 \u2022 `/restart` restart the bot
 
-🏷️ **Developer: @I_Am_Only_One_1** 👑
+🏷️ **Developer: @netflixfmm** 👑
 """
 
 
